@@ -37,12 +37,35 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 /* write all the steps invloved */
 
 **PROGRAM**
-
+```
+module syncntr(clk, rst, q);
+ input clk;
+ input rst;
+ output [3:0]q;
+reg [3:0]q;
+reg [3:0]x=0;
+always @ (posedge(clk) or posedge(rst))
+begin
+if (rst==1'b1)
+begin
+q=4'b0;
+end
+else 
+begin
+x=x+1'b1;
+end
+q=x;
+end
+endmodule
+```
 /* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
 */
 
 **RTL LOGIC FOR FLIPFLOPS**
+![Screenshot (2)](https://github.com/user-attachments/assets/c7682817-ab6f-4a2f-9d85-18758ec8990a)
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
 
 **RESULTS**
+Thus the OUTPUT’s of Synchronous and Asynchronous counter are verified by synthesizing and 
+simulating the VERILOG code.
