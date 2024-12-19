@@ -65,7 +65,7 @@ endmodule
 ![Screenshot (2)](https://github.com/user-attachments/assets/c7682817-ab6f-4a2f-9d85-18758ec8990a)
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
-![Screenshot (2)](https://github.com/user-attachments/assets/710c03d8-1f95-49d7-afc3-32346190732a)
+![Screenshot (3)](https://github.com/user-attachments/assets/e0c0a6f8-9e25-4633-a15a-604a1c0a64c1)
 
 **RESULTS**
 Thus the OUTPUT’s of Synchronous and Asynchronous counter are verified by synthesizing and 
